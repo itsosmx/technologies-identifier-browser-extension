@@ -1,0 +1,20 @@
+{
+  "name": "websites-technologies-identifier",
+  "version": "1.0.0",
+  "description": "Identify websites technologies, shows you what websites are built with. ",
+  "manifest_version": 3,
+  "author": "Osama Hussein",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Technologies Identifier"
+  },
+  "permissions": ["activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "images/icon-16.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  }
+}
